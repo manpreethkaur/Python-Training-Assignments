@@ -1,0 +1,6 @@
+a= raw_input("Enter a string to search")
+b = "hello world"
+if a.lower() in b.lower():
+    print "%s is found in string b" %a
+else:
+    print "%s is not found in string b" %a
