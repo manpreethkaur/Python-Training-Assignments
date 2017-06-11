@@ -1,0 +1,7 @@
+a = int(raw_input("Enter a number:"))
+b = int(raw_input("Enter a number:"))
+
+if (a%b == 0):
+    print "%d is divisible by %d" %(a,b)
+else:
+    print "%d is not divisible by %d" %(a,b)
